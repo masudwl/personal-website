@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-size: 23px;
+}
+h3{
+    font-size: 17px;
+}
+
+/* Header Section */
+section{
+    height: 400px;
+}
+#header_section{
+    background: url(../img/header-bg.png) no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+.half-width.about-me {
+        margin-top: 109px;
+        margin-left: 66px;
+    }
+.about-me h2{
+    color: tomato;
+    line-height: 15px;
+}
+.about-me h3{
+    line-height: 0px;
+}
+.half-width p{
+    text-align: justify;
+    font-size: 13px;
+}
+.half-width a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+}
+.half-width a:hover{
+    font-size: 15px;
+    padding: 7px 25px;
+}
+.btn{
+    background-image: linear-gradient(180deg,tomato, orange);
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.half-width img{
+    width: 100%;
+}
+/* biography Setion */
+.biography{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.biography h3{
+    text-transform: uppercase;
+}
+
+#biography_section{
+    background: url(../img/biography-bg.png) no-repeat;
+    background-size: cover;
+}
+
+.half-width.bio-img {
+	width: 200px;
+	margin-left: 100px;
+}
+/* My latest Work */
+#work-portfolio{
+    background: url(../img/latest-work-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.portflio-img{
+    float: left;
+    width: 30%;
+    margin: 4px -9px 0px 24px;
+}
+.portflio-img img{
+    width: 100%;
+}
+#work-portfolio h2{
+    text-align: center;
+    padding: 20px;
+}
+
+/* Client Area */
+#client_area{
+    background: url(../img/footer-bg.png) no-repeat;
+    background-size: cover;
+    background-size: left;
+}
+.client_opinion{
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+.client_opinion p{
+    line-height: 5px;
+}
+.client_opinion h2{
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+.client_opinion .quote{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact-add{
+    background-image: linear-gradient( 45deg, lightcoral, orange);
+    padding: 4px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.footer_area{
+    height: 50px;
+    background-color: gray;
+}
+.footer_area p{
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
